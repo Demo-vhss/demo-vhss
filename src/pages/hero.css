@@ -1,0 +1,61 @@
+.backg {
+  background-image: url("https://img.freepik.com/premium-photo/left-aligned-black-white-bokeh-background-hd_199726-6829.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px; 
+}
+
+.content {
+  padding-top: 150px;
+  text-align: right;
+  padding-right: 150px;
+}
+
+.para {
+  padding-top: 10px;
+  padding-right: 97px;
+  font-style: italic;
+}
+
+.content-container {
+  border: 2px solid black; 
+  padding: 20px; 
+  width: 300px;
+  height: 260px; 
+  display: inline-block;
+  text-align: left;
+  padding-left: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .backg {
+  background-image: url("https://img.freepik.com/premium-photo/left-aligned-black-white-bokeh-background-hd_199726-6829.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px; 
+}
+
+.content {
+  padding-top: 60px;
+  text-align: right;
+  padding-right: 150px;
+}
+
+.para {
+  padding-top: 10px;
+  padding-right: 97px;
+  font-style: italic;
+}
+
+.content-container {
+  border: 2px solid black; 
+  padding: 20px; 
+  width: 250px;
+  height: 220px; 
+  display: inline-block;
+  text-align: left;
+  padding-left: 50px;
+  margin-left: 160px;
+}
+}
